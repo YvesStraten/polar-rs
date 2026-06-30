@@ -1,0 +1,32 @@
+[workspace]
+resolver = "2"
+members = ["crates/polar-sh", "crates/polar-runtime", "crates/polar-api", "xtask"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "Apache-2.0"
+authors = ["Franz Geffke <mail@gofranz.com>"]
+repository = "https://github.com/franzos/polar-rs"
+homepage = "https://github.com/franzos/polar-rs"
+description = "Rust SDK for the Polar API"
+readme = "README.md"
+keywords = ["polar", "payments", "billing", "subscriptions", "api"]
+categories = ["api-bindings", "web-programming::http-client"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+prettyplease = "=0.2.20"
+syn = { version = "=2.0.66", features = ["full"] }
+quote = "=1.0.36"
+proc-macro2 = "=1.0.85"
+reqwest = { version = "0.12", default-features = false, features = ["json", "native-tls"] }
+tokio = { version = "1", features = ["macros", "rt", "rt-multi-thread"] }
+wiremock = "0.6"
+async-stream = "0.3"
+futures = "0.3"
+hmac = "0.12"
+sha2 = "0.10"
+base64 = "0.22"

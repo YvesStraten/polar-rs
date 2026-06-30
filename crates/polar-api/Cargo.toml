@@ -1,0 +1,22 @@
+[package]
+name = "polar-api"
+description = "Generated API types and operations for the Polar API"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+homepage.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[features]
+default = ["webhooks"]
+webhooks = []
+
+[dependencies]
+polar-runtime = { path = "../polar-runtime" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }

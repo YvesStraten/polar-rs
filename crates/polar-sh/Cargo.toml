@@ -1,0 +1,28 @@
+[package]
+name = "polar-sh"
+description = "Rust SDK for the Polar API"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+homepage.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[features]
+default = ["webhooks"]
+webhooks = ["polar-api/webhooks"]
+
+[dependencies]
+polar-api = { path = "../polar-api" }
+polar-runtime = { path = "../polar-runtime" }
+
+[dev-dependencies]
+base64.workspace = true
+hmac.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+tokio.workspace = true
+wiremock.workspace = true
