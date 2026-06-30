@@ -537,15 +537,15 @@ pub struct BenefitCustomCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -605,15 +605,15 @@ pub struct BenefitCustomUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -696,15 +696,15 @@ pub struct BenefitDiscordCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -772,15 +772,15 @@ pub struct BenefitDiscordUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -819,15 +819,15 @@ pub struct BenefitDownloadablesCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -884,15 +884,15 @@ pub struct BenefitDownloadablesUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -936,15 +936,15 @@ pub struct BenefitFeatureFlagCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -995,15 +995,15 @@ pub struct BenefitFeatureFlagUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -1048,15 +1048,15 @@ pub struct BenefitGitHubRepositoryCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -1126,15 +1126,15 @@ pub struct BenefitGitHubRepositoryUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -1707,15 +1707,15 @@ pub struct BenefitLicenseKeysCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -1790,15 +1790,15 @@ pub struct BenefitLicenseKeysUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -1844,15 +1844,15 @@ pub struct BenefitMeterCreditCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -1915,15 +1915,15 @@ pub struct BenefitMeterCreditUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -2025,15 +2025,15 @@ pub struct BenefitSlackSharedChannelCreate {
     pub description: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization owning the benefit. **Required unless you use an organization token.**
@@ -2110,15 +2110,15 @@ pub struct BenefitSlackSharedChannelUpdate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -2411,14 +2411,14 @@ pub struct Checkout {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub seats: Option<i64>,
     /**
-    Status of the checkout session.
+        Status of the checkout session.
 
-    - Open: the checkout session was opened.
-    - Expired: the checkout session was expired and is no more accessible.
-    - Confirmed: the user on the checkout session clicked Pay. This is not indicative of the payment's success status.
-    - Failed: the checkout definitely failed for technical reasons and cannot be retried. In most cases, this state is never reached.
-    - Succeeded: the payment on the checkout was performed successfully.
-    */
+        - Open: the checkout session was opened.
+        - Expired: the checkout session was expired and is no more accessible.
+        - Confirmed: the user on the checkout session clicked Pay. This is not indicative of the payment's success status.
+        - Failed: the checkout definitely failed for technical reasons and cannot be retried. In most cases, this state is never reached.
+        - Succeeded: the payment on the checkout was performed successfully.
+        */
     pub status: CheckoutStatus,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub subscription_id: Option<String>,
@@ -2675,15 +2675,15 @@ pub struct CheckoutLinkCreateProduct {
     pub label: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Payment processor to use. Currently only Stripe is supported.
@@ -2724,15 +2724,15 @@ pub struct CheckoutLinkCreateProductPrice {
     pub label: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Payment processor to use. Currently only Stripe is supported.
@@ -2771,15 +2771,15 @@ pub struct CheckoutLinkCreateProducts {
     pub label: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Payment processor to use. Currently only Stripe is supported.
@@ -2880,15 +2880,15 @@ pub struct CheckoutLinkUpdate {
     pub label: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// List of products that will be available to select at checkout.
@@ -2966,15 +2966,15 @@ pub struct CheckoutPriceCreate {
     pub customer_ip_address: Option<String>,
     /** Key-value object allowing you to store additional information that'll be copied to the created customer.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -3000,15 +3000,15 @@ pub struct CheckoutPriceCreate {
     pub max_seats: Option<i64>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Minimum number of seats (works with seat-based pricing only)
@@ -3114,15 +3114,15 @@ pub struct CheckoutProductCreate {
     pub customer_ip_address: Option<String>,
     /** Key-value object allowing you to store additional information that'll be copied to the created customer.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -3148,15 +3148,15 @@ pub struct CheckoutProductCreate {
     pub max_seats: Option<i64>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Minimum number of seats (works with seat-based pricing only)
@@ -3219,15 +3219,15 @@ pub struct CheckoutProductsCreate {
     pub customer_ip_address: Option<String>,
     /** Key-value object allowing you to store additional information that'll be copied to the created customer.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -3253,15 +3253,15 @@ pub struct CheckoutProductsCreate {
     pub max_seats: Option<i64>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Minimum number of seats (works with seat-based pricing only)
@@ -3410,14 +3410,14 @@ pub struct CheckoutPublic {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub seats: Option<i64>,
     /**
-    Status of the checkout session.
+        Status of the checkout session.
 
-    - Open: the checkout session was opened.
-    - Expired: the checkout session was expired and is no more accessible.
-    - Confirmed: the user on the checkout session clicked Pay. This is not indicative of the payment's success status.
-    - Failed: the checkout definitely failed for technical reasons and cannot be retried. In most cases, this state is never reached.
-    - Succeeded: the payment on the checkout was performed successfully.
-    */
+        - Open: the checkout session was opened.
+        - Expired: the checkout session was expired and is no more accessible.
+        - Confirmed: the user on the checkout session clicked Pay. This is not indicative of the payment's success status.
+        - Failed: the checkout definitely failed for technical reasons and cannot be retried. In most cases, this state is never reached.
+        - Succeeded: the payment on the checkout was performed successfully.
+        */
     pub status: CheckoutStatus,
     /// URL where the customer will be redirected after a successful payment.
     pub success_url: String,
@@ -3626,15 +3626,15 @@ pub struct CheckoutUpdate {
     pub customer_ip_address: Option<String>,
     /** Key-value object allowing you to store additional information that'll be copied to the created customer.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -3653,15 +3653,15 @@ pub struct CheckoutUpdate {
     pub locale: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// ID of the product to checkout. Must be present in the checkout's product list.
@@ -4804,15 +4804,15 @@ pub enum CustomFieldCreate {
 pub struct CustomFieldCreateCheckbox {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the custom field.
@@ -4830,15 +4830,15 @@ pub struct CustomFieldCreateCheckbox {
 pub struct CustomFieldCreateDate {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the custom field.
@@ -4856,15 +4856,15 @@ pub struct CustomFieldCreateDate {
 pub struct CustomFieldCreateNumber {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the custom field.
@@ -4882,15 +4882,15 @@ pub struct CustomFieldCreateNumber {
 pub struct CustomFieldCreateSelect {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the custom field.
@@ -4908,15 +4908,15 @@ pub struct CustomFieldCreateSelect {
 pub struct CustomFieldCreateText {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the custom field.
@@ -5116,15 +5116,15 @@ pub enum CustomFieldUpdate {
 pub struct CustomFieldUpdateCheckbox {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -5140,15 +5140,15 @@ pub struct CustomFieldUpdateCheckbox {
 pub struct CustomFieldUpdateDate {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -5164,15 +5164,15 @@ pub struct CustomFieldUpdateDate {
 pub struct CustomFieldUpdateNumber {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -5188,15 +5188,15 @@ pub struct CustomFieldUpdateNumber {
 pub struct CustomFieldUpdateSelect {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -5212,15 +5212,15 @@ pub struct CustomFieldUpdateSelect {
 pub struct CustomFieldUpdateText {
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -5814,15 +5814,15 @@ pub struct CustomerIndividualCreate {
     pub locale: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -6855,7 +6855,7 @@ pub struct CustomerSubscription {
 pub struct CustomerSubscriptionCancel {
     /** Cancel an active subscription once the current period ends.
 
-    Or uncancel a subscription currently set to be revoked at period end.*/
+Or uncancel a subscription currently set to be revoked at period end.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cancel_at_period_end: Option<bool>,
     /// Customer feedback and why they decided to cancel.
@@ -6863,14 +6863,14 @@ pub struct CustomerSubscriptionCancel {
     pub cancellation_comment: Option<String>,
     /** Customers reason for cancellation.
 
-    * `too_expensive`: Too expensive for the customer.
-    * `missing_features`: Customer is missing certain features.
-    * `switched_service`: Customer switched to another service.
-    * `unused`: Customer is not using it enough.
-    * `customer_service`: Customer is not satisfied with the customer service.
-    * `low_quality`: Customer is unhappy with the quality.
-    * `too_complex`: Customer considers the service too complicated.
-    * `other`: Other reason(s).*/
+* `too_expensive`: Too expensive for the customer.
+* `missing_features`: Customer is missing certain features.
+* `switched_service`: Customer switched to another service.
+* `unused`: Customer is not using it enough.
+* `customer_service`: Customer is not satisfied with the customer service.
+* `low_quality`: Customer is unhappy with the quality.
+* `too_complex`: Customer considers the service too complicated.
+* `other`: Other reason(s).*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cancellation_reason: Option<CustomerCancellationReason>,
 }
@@ -7047,15 +7047,15 @@ pub struct CustomerTeamCreate {
     pub locale: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -7091,15 +7091,15 @@ pub struct CustomerUpdate {
     pub locale: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -7121,15 +7121,15 @@ pub struct CustomerUpdateExternalID {
     pub locale: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -7265,10 +7265,10 @@ pub struct DiscountFixedCreate {
     pub duration: DiscountDuration,
     /** Number of months the discount should be applied.
 
-    Required when `duration` is `repeating`. Must be omitted otherwise.
+Required when `duration` is `repeating`. Must be omitted otherwise.
 
-    For this to work on yearly pricing, you should multiply this by 12.
-    For example, to apply the discount for 2 years, set this to 24.*/
+For this to work on yearly pricing, you should multiply this by 12.
+For example, to apply the discount for 2 years, set this to 24.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub duration_in_months: Option<i64>,
     /// Optional timestamp after which the discount is no longer redeemable.
@@ -7279,15 +7279,15 @@ pub struct DiscountFixedCreate {
     pub max_redemptions: Option<i64>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the discount. Will be displayed to the customer when the discount is applied.
@@ -7455,8 +7455,8 @@ pub struct DiscountFixedRepeatDurationBase {
 pub struct DiscountPercentageCreate {
     /** Discount percentage in basis points.
 
-    A basis point is 1/100th of a percent.
-    For example, to create a 25.5% discount, set this to 2550.*/
+A basis point is 1/100th of a percent.
+For example, to create a 25.5% discount, set this to 2550.*/
     pub basis_points: i64,
     /// Code customers can use to apply the discount during checkout. Must be between 3 and 256 characters long and contain only alphanumeric characters.If not provided, the discount can only be applied via the API.
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -7465,10 +7465,10 @@ pub struct DiscountPercentageCreate {
     pub duration: DiscountDuration,
     /** Number of months the discount should be applied.
 
-    Required when `duration` is `repeating`. Must be omitted otherwise.
+Required when `duration` is `repeating`. Must be omitted otherwise.
 
-    For this to work on yearly pricing, you should multiply this by 12.
-    For example, to apply the discount for 2 years, set this to 24.*/
+For this to work on yearly pricing, you should multiply this by 12.
+For example, to apply the discount for 2 years, set this to 24.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub duration_in_months: Option<i64>,
     /// Optional timestamp after which the discount is no longer redeemable.
@@ -7479,15 +7479,15 @@ pub struct DiscountPercentageCreate {
     pub max_redemptions: Option<i64>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// Name of the discount. Will be displayed to the customer when the discount is applied.
@@ -7735,15 +7735,15 @@ pub struct DiscountUpdate {
     pub max_redemptions: Option<i64>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -7940,15 +7940,15 @@ pub struct EventCreateCustomer {
     pub member_id: Option<String>,
     /** Key-value object allowing you to store additional information about the event. Some keys like `_llm` are structured data that are handled specially by Polar.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<EventMetadataInput>,
     /// The name of the event.
@@ -7975,15 +7975,15 @@ pub struct EventCreateExternalCustomer {
     pub external_member_id: Option<String>,
     /** Key-value object allowing you to store additional information about the event. Some keys like `_llm` are structured data that are handled specially by Polar.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<EventMetadataInput>,
     /// The name of the event.
@@ -8475,30 +8475,30 @@ pub struct LegacyRecurringProductPriceFixed {
 pub struct LicenseKeyActivate {
     /** Key-value object allowing you to set conditions that must match when validating the license key.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub conditions: Option<polar_runtime::Metadata>,
     pub key: String,
     pub label: String,
     /** Key-value object allowing you to store additional information about the activation
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub meta: Option<polar_runtime::Metadata>,
     pub organization_id: String,
@@ -8640,15 +8640,15 @@ pub struct LicenseKeyValidate {
     pub benefit_id: Option<String>,
     /** Key-value object allowing you to set conditions that must match when validating the license key.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub conditions: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -8986,15 +8986,15 @@ pub struct MeterCreate {
     pub filter: Filter,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The name of the meter. Will be shown on customer's invoices and usage.
@@ -9144,15 +9144,15 @@ pub struct MeterUpdate {
     pub is_archived: Option<bool>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The name of the meter. Will be shown on customer's invoices and usage.
@@ -9819,15 +9819,15 @@ pub struct OrderCreate {
     pub description: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the organization the order belongs to. **Required unless you use an organization token.** The customer and product must belong to this organization.
@@ -11157,15 +11157,15 @@ pub struct ProductCreateOneTime {
     pub medias: Option<Vec<String>>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The name of the product.
@@ -11198,15 +11198,15 @@ pub struct ProductCreateRecurring {
     pub medias: Option<Vec<String>>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The name of the product.
@@ -11324,282 +11324,282 @@ pub struct ProductPriceCustom {
 pub struct ProductPriceCustomCreate {
     pub amount_type: String,
     /** The maximum amount the customer can pay. Maximum per currency:
-    - USD: 999,999.99
-    - EUR: 999,999.99
-    - GBP: 999,999.99
-    - ARS: 1,400,000
-    - CDF: 2,800,000
-    - COP: 4,000,000
-    - IDR: 16,000,000
-    - KHR: 4,000,000
-    - LAK: 21,000,000
-    - MNT: 3,500,000
-    - MWK: 1,750,000
-    - NGN: 1,550,000
-    - TZS: 2,500,000
-    - UGX: 3,700,000
-    - UZS: 12,500,000
-    - Other currencies: 99,999,999 minor units*/
+- USD: 999,999.99
+- EUR: 999,999.99
+- GBP: 999,999.99
+- ARS: 1,400,000
+- CDF: 2,800,000
+- COP: 4,000,000
+- IDR: 16,000,000
+- KHR: 4,000,000
+- LAK: 21,000,000
+- MNT: 3,500,000
+- MWK: 1,750,000
+- NGN: 1,550,000
+- TZS: 2,500,000
+- UGX: 3,700,000
+- UZS: 12,500,000
+- Other currencies: 99,999,999 minor units*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub maximum_amount: Option<i64>,
     /** The minimum amount the customer can pay. If set to 0, the price is 'free or pay what you want' and $0 is accepted. If set to a value below the minimum price amount for the currency, it will be rejected. Defaults to the minimum price amount for the currency. Minimum per currency:
-    - USD: 0.5
-    - AED: 2
-    - ALL: 50
-    - AMD: 200
-    - AOA: 500
-    - ARS: 750
-    - AUD: 0.7
-    - AWG: 1
-    - AZN: 1
-    - BAM: 1
-    - BBD: 2
-    - BDT: 70
-    - BIF: 2,000
-    - BMD: 1
-    - BND: 1
-    - BOB: 5
-    - BRL: 2.5
-    - BSD: 1
-    - BWP: 10
-    - BZD: 2
-    - CAD: 0.7
-    - CDF: 2,000
-    - CHF: 0.5
-    - CLP: 500
-    - CNY: 5
-    - COP: 2,000
-    - CRC: 300
-    - CVE: 50
-    - CZK: 15
-    - DJF: 100
-    - DKK: 3.2
-    - DOP: 40
-    - DZD: 70
-    - EGP: 30
-    - ETB: 80
-    - EUR: 0.5
-    - FJD: 2
-    - FKP: 1
-    - GBP: 0.4
-    - GEL: 2
-    - GNF: 5,000
-    - GIP: 1
-    - GMD: 40
-    - GTQ: 5
-    - GYD: 200
-    - HKD: 4
-    - HNL: 20
-    - HTG: 70
-    - HUF: 175
-    - IDR: 9,000
-    - ILS: 1.5
-    - INR: 60
-    - ISK: 70
-    - JMD: 80
-    - JPY: 80
-    - KES: 70
-    - KGS: 50
-    - KHR: 3,000
-    - KMF: 500
-    - KRW: 800
-    - KYD: 1
-    - KZT: 300
-    - LAK: 20,000
-    - LKR: 200
-    - LRD: 100
-    - LSL: 10
-    - MAD: 5
-    - MDL: 10
-    - MGA: 3,000
-    - MKD: 50
-    - MNT: 2,000
-    - MOP: 5
-    - MUR: 50
-    - MVR: 8
-    - MXN: 9
-    - MWK: 1,000
-    - MYR: 2
-    - MZN: 50
-    - NAD: 10
-    - NGN: 700
-    - NIO: 20
-    - NOK: 5
-    - NPR: 80
-    - NZD: 0.9
-    - PAB: 1
-    - PEN: 2
-    - PGK: 3
-    - PHP: 35
-    - PKR: 200
-    - PLN: 2
-    - PYG: 4,000
-    - QAR: 2
-    - RON: 2.5
-    - RSD: 60
-    - RWF: 1,000
-    - SAR: 2
-    - SBD: 4
-    - SCR: 8
-    - SEK: 5
-    - SGD: 0.7
-    - SHP: 1
-    - SOS: 500
-    - SRD: 20
-    - SZL: 10
-    - THB: 20
-    - TJS: 5
-    - TOP: 2
-    - TRY: 30
-    - TTD: 4
-    - TWD: 20
-    - TZS: 2,000
-    - UAH: 30
-    - UGX: 2,000
-    - UYU: 20
-    - UZS: 7,000
-    - VND: 20,000
-    - VUV: 100
-    - WST: 2
-    - XAF: 500
-    - XCD: 2
-    - XCG: 1
-    - XOF: 500
-    - XPF: 100
-    - YER: 200
-    - ZAR: 9
-    - ZMW: 10
-    - Other currencies: 50 minor units*/
+- USD: 0.5
+- AED: 2
+- ALL: 50
+- AMD: 200
+- AOA: 500
+- ARS: 750
+- AUD: 0.7
+- AWG: 1
+- AZN: 1
+- BAM: 1
+- BBD: 2
+- BDT: 70
+- BIF: 2,000
+- BMD: 1
+- BND: 1
+- BOB: 5
+- BRL: 2.5
+- BSD: 1
+- BWP: 10
+- BZD: 2
+- CAD: 0.7
+- CDF: 2,000
+- CHF: 0.5
+- CLP: 500
+- CNY: 5
+- COP: 2,000
+- CRC: 300
+- CVE: 50
+- CZK: 15
+- DJF: 100
+- DKK: 3.2
+- DOP: 40
+- DZD: 70
+- EGP: 30
+- ETB: 80
+- EUR: 0.5
+- FJD: 2
+- FKP: 1
+- GBP: 0.4
+- GEL: 2
+- GNF: 5,000
+- GIP: 1
+- GMD: 40
+- GTQ: 5
+- GYD: 200
+- HKD: 4
+- HNL: 20
+- HTG: 70
+- HUF: 175
+- IDR: 9,000
+- ILS: 1.5
+- INR: 60
+- ISK: 70
+- JMD: 80
+- JPY: 80
+- KES: 70
+- KGS: 50
+- KHR: 3,000
+- KMF: 500
+- KRW: 800
+- KYD: 1
+- KZT: 300
+- LAK: 20,000
+- LKR: 200
+- LRD: 100
+- LSL: 10
+- MAD: 5
+- MDL: 10
+- MGA: 3,000
+- MKD: 50
+- MNT: 2,000
+- MOP: 5
+- MUR: 50
+- MVR: 8
+- MXN: 9
+- MWK: 1,000
+- MYR: 2
+- MZN: 50
+- NAD: 10
+- NGN: 700
+- NIO: 20
+- NOK: 5
+- NPR: 80
+- NZD: 0.9
+- PAB: 1
+- PEN: 2
+- PGK: 3
+- PHP: 35
+- PKR: 200
+- PLN: 2
+- PYG: 4,000
+- QAR: 2
+- RON: 2.5
+- RSD: 60
+- RWF: 1,000
+- SAR: 2
+- SBD: 4
+- SCR: 8
+- SEK: 5
+- SGD: 0.7
+- SHP: 1
+- SOS: 500
+- SRD: 20
+- SZL: 10
+- THB: 20
+- TJS: 5
+- TOP: 2
+- TRY: 30
+- TTD: 4
+- TWD: 20
+- TZS: 2,000
+- UAH: 30
+- UGX: 2,000
+- UYU: 20
+- UZS: 7,000
+- VND: 20,000
+- VUV: 100
+- WST: 2
+- XAF: 500
+- XCD: 2
+- XCG: 1
+- XOF: 500
+- XPF: 100
+- YER: 200
+- ZAR: 9
+- ZMW: 10
+- Other currencies: 50 minor units*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub minimum_amount: Option<i64>,
     /** The initial amount shown to the customer. If 0, the customer will see $0 as the default. If set to a value below the minimum price amount for the currency, it will be rejected.Minimum per currency:
-    - USD: 0.5
-    - AED: 2
-    - ALL: 50
-    - AMD: 200
-    - AOA: 500
-    - ARS: 750
-    - AUD: 0.7
-    - AWG: 1
-    - AZN: 1
-    - BAM: 1
-    - BBD: 2
-    - BDT: 70
-    - BIF: 2,000
-    - BMD: 1
-    - BND: 1
-    - BOB: 5
-    - BRL: 2.5
-    - BSD: 1
-    - BWP: 10
-    - BZD: 2
-    - CAD: 0.7
-    - CDF: 2,000
-    - CHF: 0.5
-    - CLP: 500
-    - CNY: 5
-    - COP: 2,000
-    - CRC: 300
-    - CVE: 50
-    - CZK: 15
-    - DJF: 100
-    - DKK: 3.2
-    - DOP: 40
-    - DZD: 70
-    - EGP: 30
-    - ETB: 80
-    - EUR: 0.5
-    - FJD: 2
-    - FKP: 1
-    - GBP: 0.4
-    - GEL: 2
-    - GNF: 5,000
-    - GIP: 1
-    - GMD: 40
-    - GTQ: 5
-    - GYD: 200
-    - HKD: 4
-    - HNL: 20
-    - HTG: 70
-    - HUF: 175
-    - IDR: 9,000
-    - ILS: 1.5
-    - INR: 60
-    - ISK: 70
-    - JMD: 80
-    - JPY: 80
-    - KES: 70
-    - KGS: 50
-    - KHR: 3,000
-    - KMF: 500
-    - KRW: 800
-    - KYD: 1
-    - KZT: 300
-    - LAK: 20,000
-    - LKR: 200
-    - LRD: 100
-    - LSL: 10
-    - MAD: 5
-    - MDL: 10
-    - MGA: 3,000
-    - MKD: 50
-    - MNT: 2,000
-    - MOP: 5
-    - MUR: 50
-    - MVR: 8
-    - MXN: 9
-    - MWK: 1,000
-    - MYR: 2
-    - MZN: 50
-    - NAD: 10
-    - NGN: 700
-    - NIO: 20
-    - NOK: 5
-    - NPR: 80
-    - NZD: 0.9
-    - PAB: 1
-    - PEN: 2
-    - PGK: 3
-    - PHP: 35
-    - PKR: 200
-    - PLN: 2
-    - PYG: 4,000
-    - QAR: 2
-    - RON: 2.5
-    - RSD: 60
-    - RWF: 1,000
-    - SAR: 2
-    - SBD: 4
-    - SCR: 8
-    - SEK: 5
-    - SGD: 0.7
-    - SHP: 1
-    - SOS: 500
-    - SRD: 20
-    - SZL: 10
-    - THB: 20
-    - TJS: 5
-    - TOP: 2
-    - TRY: 30
-    - TTD: 4
-    - TWD: 20
-    - TZS: 2,000
-    - UAH: 30
-    - UGX: 2,000
-    - UYU: 20
-    - UZS: 7,000
-    - VND: 20,000
-    - VUV: 100
-    - WST: 2
-    - XAF: 500
-    - XCD: 2
-    - XCG: 1
-    - XOF: 500
-    - XPF: 100
-    - YER: 200
-    - ZAR: 9
-    - ZMW: 10
-    - Other currencies: 50 minor units*/
+- USD: 0.5
+- AED: 2
+- ALL: 50
+- AMD: 200
+- AOA: 500
+- ARS: 750
+- AUD: 0.7
+- AWG: 1
+- AZN: 1
+- BAM: 1
+- BBD: 2
+- BDT: 70
+- BIF: 2,000
+- BMD: 1
+- BND: 1
+- BOB: 5
+- BRL: 2.5
+- BSD: 1
+- BWP: 10
+- BZD: 2
+- CAD: 0.7
+- CDF: 2,000
+- CHF: 0.5
+- CLP: 500
+- CNY: 5
+- COP: 2,000
+- CRC: 300
+- CVE: 50
+- CZK: 15
+- DJF: 100
+- DKK: 3.2
+- DOP: 40
+- DZD: 70
+- EGP: 30
+- ETB: 80
+- EUR: 0.5
+- FJD: 2
+- FKP: 1
+- GBP: 0.4
+- GEL: 2
+- GNF: 5,000
+- GIP: 1
+- GMD: 40
+- GTQ: 5
+- GYD: 200
+- HKD: 4
+- HNL: 20
+- HTG: 70
+- HUF: 175
+- IDR: 9,000
+- ILS: 1.5
+- INR: 60
+- ISK: 70
+- JMD: 80
+- JPY: 80
+- KES: 70
+- KGS: 50
+- KHR: 3,000
+- KMF: 500
+- KRW: 800
+- KYD: 1
+- KZT: 300
+- LAK: 20,000
+- LKR: 200
+- LRD: 100
+- LSL: 10
+- MAD: 5
+- MDL: 10
+- MGA: 3,000
+- MKD: 50
+- MNT: 2,000
+- MOP: 5
+- MUR: 50
+- MVR: 8
+- MXN: 9
+- MWK: 1,000
+- MYR: 2
+- MZN: 50
+- NAD: 10
+- NGN: 700
+- NIO: 20
+- NOK: 5
+- NPR: 80
+- NZD: 0.9
+- PAB: 1
+- PEN: 2
+- PGK: 3
+- PHP: 35
+- PKR: 200
+- PLN: 2
+- PYG: 4,000
+- QAR: 2
+- RON: 2.5
+- RSD: 60
+- RWF: 1,000
+- SAR: 2
+- SBD: 4
+- SCR: 8
+- SEK: 5
+- SGD: 0.7
+- SHP: 1
+- SOS: 500
+- SRD: 20
+- SZL: 10
+- THB: 20
+- TJS: 5
+- TOP: 2
+- TRY: 30
+- TTD: 4
+- TWD: 20
+- TZS: 2,000
+- UAH: 30
+- UGX: 2,000
+- UYU: 20
+- UZS: 7,000
+- VND: 20,000
+- VUV: 100
+- WST: 2
+- XAF: 500
+- XCD: 2
+- XCG: 1
+- XOF: 500
+- XPF: 100
+- YER: 200
+- ZAR: 9
+- ZMW: 10
+- Other currencies: 50 minor units*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub preset_amount: Option<i64>,
     /// The currency in which the customer will be charged.
@@ -11639,134 +11639,134 @@ pub struct ProductPriceFixed {
 pub struct ProductPriceFixedCreate {
     pub amount_type: String,
     /** The price in cents. Set to `0` for a free price.
-    Minimum amounts per currency:
-    - USD: 0.5
-    - AED: 2
-    - ALL: 50
-    - AMD: 200
-    - AOA: 500
-    - ARS: 750
-    - AUD: 0.7
-    - AWG: 1
-    - AZN: 1
-    - BAM: 1
-    - BBD: 2
-    - BDT: 70
-    - BIF: 2,000
-    - BMD: 1
-    - BND: 1
-    - BOB: 5
-    - BRL: 2.5
-    - BSD: 1
-    - BWP: 10
-    - BZD: 2
-    - CAD: 0.7
-    - CDF: 2,000
-    - CHF: 0.5
-    - CLP: 500
-    - CNY: 5
-    - COP: 2,000
-    - CRC: 300
-    - CVE: 50
-    - CZK: 15
-    - DJF: 100
-    - DKK: 3.2
-    - DOP: 40
-    - DZD: 70
-    - EGP: 30
-    - ETB: 80
-    - EUR: 0.5
-    - FJD: 2
-    - FKP: 1
-    - GBP: 0.4
-    - GEL: 2
-    - GNF: 5,000
-    - GIP: 1
-    - GMD: 40
-    - GTQ: 5
-    - GYD: 200
-    - HKD: 4
-    - HNL: 20
-    - HTG: 70
-    - HUF: 175
-    - IDR: 9,000
-    - ILS: 1.5
-    - INR: 60
-    - ISK: 70
-    - JMD: 80
-    - JPY: 80
-    - KES: 70
-    - KGS: 50
-    - KHR: 3,000
-    - KMF: 500
-    - KRW: 800
-    - KYD: 1
-    - KZT: 300
-    - LAK: 20,000
-    - LKR: 200
-    - LRD: 100
-    - LSL: 10
-    - MAD: 5
-    - MDL: 10
-    - MGA: 3,000
-    - MKD: 50
-    - MNT: 2,000
-    - MOP: 5
-    - MUR: 50
-    - MVR: 8
-    - MXN: 9
-    - MWK: 1,000
-    - MYR: 2
-    - MZN: 50
-    - NAD: 10
-    - NGN: 700
-    - NIO: 20
-    - NOK: 5
-    - NPR: 80
-    - NZD: 0.9
-    - PAB: 1
-    - PEN: 2
-    - PGK: 3
-    - PHP: 35
-    - PKR: 200
-    - PLN: 2
-    - PYG: 4,000
-    - QAR: 2
-    - RON: 2.5
-    - RSD: 60
-    - RWF: 1,000
-    - SAR: 2
-    - SBD: 4
-    - SCR: 8
-    - SEK: 5
-    - SGD: 0.7
-    - SHP: 1
-    - SOS: 500
-    - SRD: 20
-    - SZL: 10
-    - THB: 20
-    - TJS: 5
-    - TOP: 2
-    - TRY: 30
-    - TTD: 4
-    - TWD: 20
-    - TZS: 2,000
-    - UAH: 30
-    - UGX: 2,000
-    - UYU: 20
-    - UZS: 7,000
-    - VND: 20,000
-    - VUV: 100
-    - WST: 2
-    - XAF: 500
-    - XCD: 2
-    - XCG: 1
-    - XOF: 500
-    - XPF: 100
-    - YER: 200
-    - ZAR: 9
-    - ZMW: 10
-    - Other currencies: 50 minor units*/
+Minimum amounts per currency:
+- USD: 0.5
+- AED: 2
+- ALL: 50
+- AMD: 200
+- AOA: 500
+- ARS: 750
+- AUD: 0.7
+- AWG: 1
+- AZN: 1
+- BAM: 1
+- BBD: 2
+- BDT: 70
+- BIF: 2,000
+- BMD: 1
+- BND: 1
+- BOB: 5
+- BRL: 2.5
+- BSD: 1
+- BWP: 10
+- BZD: 2
+- CAD: 0.7
+- CDF: 2,000
+- CHF: 0.5
+- CLP: 500
+- CNY: 5
+- COP: 2,000
+- CRC: 300
+- CVE: 50
+- CZK: 15
+- DJF: 100
+- DKK: 3.2
+- DOP: 40
+- DZD: 70
+- EGP: 30
+- ETB: 80
+- EUR: 0.5
+- FJD: 2
+- FKP: 1
+- GBP: 0.4
+- GEL: 2
+- GNF: 5,000
+- GIP: 1
+- GMD: 40
+- GTQ: 5
+- GYD: 200
+- HKD: 4
+- HNL: 20
+- HTG: 70
+- HUF: 175
+- IDR: 9,000
+- ILS: 1.5
+- INR: 60
+- ISK: 70
+- JMD: 80
+- JPY: 80
+- KES: 70
+- KGS: 50
+- KHR: 3,000
+- KMF: 500
+- KRW: 800
+- KYD: 1
+- KZT: 300
+- LAK: 20,000
+- LKR: 200
+- LRD: 100
+- LSL: 10
+- MAD: 5
+- MDL: 10
+- MGA: 3,000
+- MKD: 50
+- MNT: 2,000
+- MOP: 5
+- MUR: 50
+- MVR: 8
+- MXN: 9
+- MWK: 1,000
+- MYR: 2
+- MZN: 50
+- NAD: 10
+- NGN: 700
+- NIO: 20
+- NOK: 5
+- NPR: 80
+- NZD: 0.9
+- PAB: 1
+- PEN: 2
+- PGK: 3
+- PHP: 35
+- PKR: 200
+- PLN: 2
+- PYG: 4,000
+- QAR: 2
+- RON: 2.5
+- RSD: 60
+- RWF: 1,000
+- SAR: 2
+- SBD: 4
+- SCR: 8
+- SEK: 5
+- SGD: 0.7
+- SHP: 1
+- SOS: 500
+- SRD: 20
+- SZL: 10
+- THB: 20
+- TJS: 5
+- TOP: 2
+- TRY: 30
+- TTD: 4
+- TWD: 20
+- TZS: 2,000
+- UAH: 30
+- UGX: 2,000
+- UYU: 20
+- UZS: 7,000
+- VND: 20,000
+- VUV: 100
+- WST: 2
+- XAF: 500
+- XCD: 2
+- XCG: 1
+- XOF: 500
+- XPF: 100
+- YER: 200
+- ZAR: 9
+- ZMW: 10
+- Other currencies: 50 minor units*/
     pub price_amount: i64,
     /// The currency in which the customer will be charged.
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -11970,15 +11970,15 @@ pub struct ProductUpdate {
     pub medias: Option<Vec<String>>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -12067,15 +12067,15 @@ pub struct RefundCreate {
     pub comment: Option<String>,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     pub order_id: String,
@@ -12083,10 +12083,10 @@ pub struct RefundCreate {
     pub reason: String,
     /** Should this refund trigger the associated customer benefits to be revoked?
 
-    **Note:**
-    Only allowed in case the `order` is a one-time purchase.
-    Subscriptions automatically revoke customer benefits once the
-    subscription itself is revoked, i.e fully canceled.*/
+**Note:**
+Only allowed in case the `order` is a one-time purchase.
+Subscriptions automatically revoke customer benefits once the
+subscription itself is revoked, i.e fully canceled.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub revoke_benefits: Option<bool>,
 }
@@ -12568,36 +12568,36 @@ pub struct SubscriptionBillingPeriodUpdatedMetadata {
 pub struct SubscriptionCancel {
     /** Cancel an active subscription once the current period ends.
 
-    Or uncancel a subscription currently set to be revoked at period end.*/
+Or uncancel a subscription currently set to be revoked at period end.*/
     pub cancel_at_period_end: bool,
     /** Customer feedback and why they decided to cancel.
 
-    **IMPORTANT:**
-    Do not use this to store internal notes! It's intended to be input
-    from the customer and is therefore also available in their Polar
-    purchases library.
+**IMPORTANT:**
+Do not use this to store internal notes! It's intended to be input
+from the customer and is therefore also available in their Polar
+purchases library.
 
-    Only set this in case your own service is requesting the reason from the
-    customer. Or you copy a message directly from a customer
-    conversation, i.e support.*/
+Only set this in case your own service is requesting the reason from the
+customer. Or you copy a message directly from a customer
+conversation, i.e support.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_cancellation_comment: Option<String>,
     /** Customer reason for cancellation.
 
-    Helpful to monitor reasons behind churn for future improvements.
+Helpful to monitor reasons behind churn for future improvements.
 
-    Only set this in case your own service is requesting the reason from the
-    customer. Or you know based on direct conversations, i.e support, with
-    the customer.
+Only set this in case your own service is requesting the reason from the
+customer. Or you know based on direct conversations, i.e support, with
+the customer.
 
-    * `too_expensive`: Too expensive for the customer.
-    * `missing_features`: Customer is missing certain features.
-    * `switched_service`: Customer switched to another service.
-    * `unused`: Customer is not using it enough.
-    * `customer_service`: Customer is not satisfied with the customer service.
-    * `low_quality`: Customer is unhappy with the quality.
-    * `too_complex`: Customer considers the service too complicated.
-    * `other`: Other reason(s).*/
+* `too_expensive`: Too expensive for the customer.
+* `missing_features`: Customer is missing certain features.
+* `switched_service`: Customer switched to another service.
+* `unused`: Customer is not using it enough.
+* `customer_service`: Customer is not satisfied with the customer service.
+* `low_quality`: Customer is unhappy with the quality.
+* `too_complex`: Customer considers the service too complicated.
+* `other`: Other reason(s).*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_cancellation_reason: Option<CustomerCancellationReason>,
 }
@@ -12665,15 +12665,15 @@ pub struct SubscriptionCreateCustomer {
     pub customer_id: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the recurring product to subscribe to. Must be a free product, otherwise the customer should go through a checkout flow.
@@ -12686,15 +12686,15 @@ pub struct SubscriptionCreateExternalCustomer {
     pub external_customer_id: String,
     /** Key-value object allowing you to store additional information.
 
-    The key must be a string with a maximum length of **40 characters**.
-    The value must be either:
+The key must be a string with a maximum length of **40 characters**.
+The value must be either:
 
-    * A string with a maximum length of **500 characters**
-    * An integer
-    * A floating-point number
-    * A boolean
+* A string with a maximum length of **500 characters**
+* An integer
+* A floating-point number
+* A boolean
 
-    You can store up to **50 key-value pairs**.*/
+You can store up to **50 key-value pairs**.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub metadata: Option<polar_runtime::Metadata>,
     /// The ID of the recurring product to subscribe to. Must be a free product, otherwise the customer should go through a checkout flow.
@@ -13033,32 +13033,32 @@ pub struct SubscriptionReactivatedMetadata {
 pub struct SubscriptionRevoke {
     /** Customer feedback and why they decided to cancel.
 
-    **IMPORTANT:**
-    Do not use this to store internal notes! It's intended to be input
-    from the customer and is therefore also available in their Polar
-    purchases library.
+**IMPORTANT:**
+Do not use this to store internal notes! It's intended to be input
+from the customer and is therefore also available in their Polar
+purchases library.
 
-    Only set this in case your own service is requesting the reason from the
-    customer. Or you copy a message directly from a customer
-    conversation, i.e support.*/
+Only set this in case your own service is requesting the reason from the
+customer. Or you copy a message directly from a customer
+conversation, i.e support.*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_cancellation_comment: Option<String>,
     /** Customer reason for cancellation.
 
-    Helpful to monitor reasons behind churn for future improvements.
+Helpful to monitor reasons behind churn for future improvements.
 
-    Only set this in case your own service is requesting the reason from the
-    customer. Or you know based on direct conversations, i.e support, with
-    the customer.
+Only set this in case your own service is requesting the reason from the
+customer. Or you know based on direct conversations, i.e support, with
+the customer.
 
-    * `too_expensive`: Too expensive for the customer.
-    * `missing_features`: Customer is missing certain features.
-    * `switched_service`: Customer switched to another service.
-    * `unused`: Customer is not using it enough.
-    * `customer_service`: Customer is not satisfied with the customer service.
-    * `low_quality`: Customer is unhappy with the quality.
-    * `too_complex`: Customer considers the service too complicated.
-    * `other`: Other reason(s).*/
+* `too_expensive`: Too expensive for the customer.
+* `missing_features`: Customer is missing certain features.
+* `switched_service`: Customer switched to another service.
+* `unused`: Customer is not using it enough.
+* `customer_service`: Customer is not satisfied with the customer service.
+* `low_quality`: Customer is unhappy with the quality.
+* `too_complex`: Customer considers the service too complicated.
+* `other`: Other reason(s).*/
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub customer_cancellation_reason: Option<CustomerCancellationReason>,
     /// Cancel and revoke an active subscription immediately
@@ -13284,7 +13284,7 @@ pub struct SubscriptionUpdateBase {
 pub struct SubscriptionUpdateBillingPeriod {
     /** Set a new date for the end of the current billing period. The subscription will renew on this date. The new date can be earlier or later than the current period end, as long as it's in the future.
 
-    It is not possible to update the current billing period on a canceled subscription.*/
+It is not possible to update the current billing period on a canceled subscription.*/
     pub current_billing_period_end: polar_runtime::Timestamp,
 }
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
