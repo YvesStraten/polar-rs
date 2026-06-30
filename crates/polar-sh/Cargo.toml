@@ -16,8 +16,8 @@ default = ["webhooks"]
 webhooks = ["polar-api/webhooks"]
 
 [dependencies]
-polar-api = { path = "../polar-api" }
-polar-runtime = { path = "../polar-runtime" }
+polar-api = { workspace = true }
+polar-runtime = { workspace = true }
 
 [dev-dependencies]
 base64.workspace = true

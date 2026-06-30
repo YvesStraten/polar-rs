@@ -826,7 +826,7 @@ checksum = "19f132c84eca552bf34cab8ec81f1c1dcc229b811638f9d283dceabe58c5569e"
 
 [[package]]
 name = "polar-api"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "chrono",
  "polar-runtime",
@@ -836,7 +836,7 @@ dependencies = [
 
 [[package]]
 name = "polar-runtime"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "async-stream",
  "base64",
@@ -853,7 +853,7 @@ dependencies = [
 
 [[package]]
 name = "polar-sh"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "base64",
  "hmac",
@@ -1528,7 +1528,7 @@ checksum = "1ffae5123b2d3fc086436f8834ae3ab053a283cfac8fe0a0b8eaae044768a4c4"
 
 [[package]]
 name = "xtask"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "prettyplease",
  "proc-macro2",

@@ -16,7 +16,7 @@ default = ["webhooks"]
 webhooks = []
 
 [dependencies]
-polar-runtime = { path = "../polar-runtime" }
+polar-runtime = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
 chrono = { workspace = true }

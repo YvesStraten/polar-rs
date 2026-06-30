@@ -4,7 +4,7 @@ members = ["crates/polar-sh", "crates/polar-runtime", "crates/polar-api", "xtask
 
 [workspace.package]
 edition = "2021"
-version = "0.1.1"
+version = "0.1.2"
 license = "Apache-2.0"
 authors = ["Franz Geffke <mail@gofranz.com>"]
 repository = "https://github.com/franzos/polar-rs"
@@ -15,6 +15,8 @@ keywords = ["polar", "payments", "billing", "subscriptions", "api"]
 categories = ["api-bindings", "web-programming::http-client"]
 
 [workspace.dependencies]
+polar-runtime = { path = "crates/polar-runtime", version = "0.1" }
+polar-api = { path = "crates/polar-api", version = "0.1" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 chrono = { version = "0.4", features = ["serde"] }
