@@ -40,6 +40,23 @@ impl BenefitGrantsListParams {
     }
 }
 #[derive(Clone, Default)]
+pub struct BenefitsFilesParams {
+    pub limit: Option<i64>,
+    pub page: Option<i64>,
+}
+impl BenefitsFilesParams {
+    pub fn to_pairs(&self) -> Vec<(String, String)> {
+        let mut out = Vec::new();
+        if let Some(ref v) = self.limit {
+            out.push(("limit".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.page {
+            out.push(("page".to_string(), v.to_string()));
+        }
+        out
+    }
+}
+#[derive(Clone, Default)]
 pub struct BenefitsGrantsParams {
     pub customer_id: Option<String>,
     pub is_granted: Option<String>,
@@ -1155,17 +1172,37 @@ impl MetricsListDashboardsParams {
 }
 #[derive(Clone, Default)]
 pub struct OrdersExportParams {
+    pub columns: Option<String>,
+    pub created_after: Option<String>,
+    pub created_before: Option<String>,
     pub organization_id: Option<String>,
     pub product_id: Option<String>,
+    pub status: Option<String>,
+    pub timezone: Option<String>,
 }
 impl OrdersExportParams {
     pub fn to_pairs(&self) -> Vec<(String, String)> {
         let mut out = Vec::new();
+        if let Some(ref v) = self.columns {
+            out.push(("columns".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.created_after {
+            out.push(("created_after".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.created_before {
+            out.push(("created_before".to_string(), v.to_string()));
+        }
         if let Some(ref v) = self.organization_id {
             out.push(("organization_id".to_string(), v.to_string()));
         }
         if let Some(ref v) = self.product_id {
             out.push(("product_id".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.status {
+            out.push(("status".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.timezone {
+            out.push(("timezone".to_string(), v.to_string()));
         }
         out
     }
@@ -1173,6 +1210,8 @@ impl OrdersExportParams {
 #[derive(Clone, Default)]
 pub struct OrdersListParams {
     pub checkout_id: Option<String>,
+    pub created_after: Option<String>,
+    pub created_before: Option<String>,
     pub customer_id: Option<String>,
     pub discount_id: Option<String>,
     pub external_customer_id: Option<String>,
@@ -1183,6 +1222,7 @@ pub struct OrdersListParams {
     pub product_billing_type: Option<String>,
     pub product_id: Option<String>,
     pub sorting: Option<String>,
+    pub status: Option<String>,
     pub subscription_id: Option<String>,
 }
 impl OrdersListParams {
@@ -1190,6 +1230,12 @@ impl OrdersListParams {
         let mut out = Vec::new();
         if let Some(ref v) = self.checkout_id {
             out.push(("checkout_id".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.created_after {
+            out.push(("created_after".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.created_before {
+            out.push(("created_before".to_string(), v.to_string()));
         }
         if let Some(ref v) = self.customer_id {
             out.push(("customer_id".to_string(), v.to_string()));
@@ -1220,6 +1266,9 @@ impl OrdersListParams {
         }
         if let Some(ref v) = self.sorting {
             out.push(("sorting".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.status {
+            out.push(("status".to_string(), v.to_string()));
         }
         if let Some(ref v) = self.subscription_id {
             out.push(("subscription_id".to_string(), v.to_string()));
@@ -1405,13 +1454,41 @@ impl RefundsListParams {
 }
 #[derive(Clone, Default)]
 pub struct SubscriptionsExportParams {
+    pub cancel_at_period_end: Option<String>,
+    pub columns: Option<String>,
     pub organization_id: Option<String>,
+    pub product_id: Option<String>,
+    pub started_after: Option<String>,
+    pub started_before: Option<String>,
+    pub status: Option<String>,
+    pub timezone: Option<String>,
 }
 impl SubscriptionsExportParams {
     pub fn to_pairs(&self) -> Vec<(String, String)> {
         let mut out = Vec::new();
+        if let Some(ref v) = self.cancel_at_period_end {
+            out.push(("cancel_at_period_end".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.columns {
+            out.push(("columns".to_string(), v.to_string()));
+        }
         if let Some(ref v) = self.organization_id {
             out.push(("organization_id".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.product_id {
+            out.push(("product_id".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.started_after {
+            out.push(("started_after".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.started_before {
+            out.push(("started_before".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.status {
+            out.push(("status".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.timezone {
+            out.push(("timezone".to_string(), v.to_string()));
         }
         out
     }
@@ -1432,6 +1509,8 @@ pub struct SubscriptionsListParams {
     pub page: Option<i64>,
     pub product_id: Option<String>,
     pub sorting: Option<String>,
+    pub started_after: Option<String>,
+    pub started_before: Option<String>,
     pub status: Option<String>,
 }
 impl SubscriptionsListParams {
@@ -1478,6 +1557,12 @@ impl SubscriptionsListParams {
         }
         if let Some(ref v) = self.sorting {
             out.push(("sorting".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.started_after {
+            out.push(("started_after".to_string(), v.to_string()));
+        }
+        if let Some(ref v) = self.started_before {
+            out.push(("started_before".to_string(), v.to_string()));
         }
         if let Some(ref v) = self.status {
             out.push(("status".to_string(), v.to_string()));
@@ -1630,6 +1715,48 @@ impl<'a> Benefits<'a> {
         self.client
             .request(polar_runtime::Method::DELETE, &path__, &[], None::<&()>)
             .await
+    }
+    /** List the downloadable files for a benefit with their download statistics.
+
+**Scopes**: `benefits:read` `benefits:write`*/
+    pub async fn files(
+        &self,
+        id: &str,
+        params: &BenefitsFilesParams,
+    ) -> Result<types::ListResourceBenefitDownloadableFile, polar_runtime::Error> {
+        let path__ = format!("/v1/benefits/{}/files", id);
+        let q__ = params.to_pairs();
+        self.client.request(polar_runtime::Method::GET, &path__, &q__, None::<&()>).await
+    }
+    pub fn files_stream(
+        &self,
+        id: &str,
+        params: &BenefitsFilesParams,
+    ) -> impl polar_runtime::Stream<
+        Item = Result<types::BenefitDownloadableFile, polar_runtime::Error>,
+    > + '_ {
+        let client = self.client.clone();
+        let id_owned__ = id.to_string();
+        let base = params.to_pairs();
+        polar_runtime::paginate(move |page| {
+            let client = client.clone();
+            let path__ = format!("/v1/benefits/{}/files", id_owned__);
+            let mut q: Vec<(String, String)> = base
+                .iter()
+                .filter(|(k, _)| k != "page")
+                .cloned()
+                .collect();
+            q.push(("page".to_string(), page.to_string()));
+            async move {
+                let resp: types::ListResourceBenefitDownloadableFile = client
+                    .request(polar_runtime::Method::GET, &path__, &q, None::<&()>)
+                    .await?;
+                Ok(polar_runtime::Page {
+                    items: resp.items,
+                    max_page: resp.pagination.max_page as u32,
+                })
+            }
+        })
     }
     /** Get a benefit by ID.
 
@@ -3592,7 +3719,7 @@ impl<'a> Files<'a> {
         &self,
         params: &FilesListParams,
     ) -> impl polar_runtime::Stream<
-        Item = Result<serde_json::Value, polar_runtime::Error>,
+        Item = Result<types::FileRead, polar_runtime::Error>,
     > + '_ {
         let client = self.client.clone();
         let base = params.to_pairs();
@@ -3623,7 +3750,7 @@ impl<'a> Files<'a> {
         &self,
         id: &str,
         body: &types::FilePatch,
-    ) -> Result<serde_json::Value, polar_runtime::Error> {
+    ) -> Result<types::FileRead, polar_runtime::Error> {
         let path__ = format!("/v1/files/{}", id);
         self.client.request(polar_runtime::Method::PATCH, &path__, &[], Some(body)).await
     }
@@ -3634,7 +3761,7 @@ impl<'a> Files<'a> {
         &self,
         id: &str,
         body: &types::FileUploadCompleted,
-    ) -> Result<serde_json::Value, polar_runtime::Error> {
+    ) -> Result<types::FileRead, polar_runtime::Error> {
         let path__ = format!("/v1/files/{}/uploaded", id);
         self.client.request(polar_runtime::Method::POST, &path__, &[], Some(body)).await
     }

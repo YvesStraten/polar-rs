@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.3] - 2026-10-21
+
+### Fixed
+Spec path has been changed to `https://polar.sh/docs/openapi.json`
+
 ## [0.1.2] - 2026-06-30
 
 ### Fixed

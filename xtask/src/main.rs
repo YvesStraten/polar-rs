@@ -17,7 +17,7 @@ fn main() {
             );
         }
         Some("update-spec") => {
-            let url = "https://api.polar.sh/openapi.json";
+            let url = "https://polar.sh/docs/openapi.json";
             let out = std::process::Command::new("curl")
                 .args(["-sS", "-o", "spec/openapi.json", url])
                 .status()
